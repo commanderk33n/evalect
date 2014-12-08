@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails evalect: development" uuid="7d01cdb1-4c33-471e-90ea-40c08e5940be">
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails evalect: test" uuid="fc7a3c1b-debd-4764-acf7-8f33cf040371">
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>
