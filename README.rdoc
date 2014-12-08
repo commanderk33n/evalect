@@ -1,4 +1,7 @@
-== README v0.7
+== README 
+
+EvaLect v0.7
+
 
 Projekt für Webanwendungen-Studienleistung WS1415 Studiengang: IMB3
 
