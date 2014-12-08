@@ -1,12 +1,43 @@
 <% provide(:title, "Hilfe") %>
 <h1>Hilfe</h1>
 <p>
-  Grundlegende informationen im Umgang mit EvaLect!:
+  The typical flow about how to use Evalect is:
 <ol>
-  <li>Zuerst eine Gruppe für die Fragen erstellen</li>
-  <li>Dann in der jeweiligen Gruppe Fragen erstellen</li>
-  <li>Sollt ja nicht so schwer sein...;)</li>
+  <li>Create a question group by giving it a name.</li><br>
+  <li>Once group is created, you can click on the group which takes you to another page where you can manage
+    questions.
+  </li><br>
+  <li>Create a question by clicking on add new, and you will be provided by these options: Each question will have a
+    type
+    <ul><br>
+      <li><strong>Checkbox</strong><br>Create a question which contains multiple checkboxes with the options that you
+        provide in answer options field. Note that each option should be on a separate line.
+      </li>
+      <li><strong>Date</strong><br>It takes date as an answer.</li>
+      <li><strong>Long</strong><br>It needs a description as answer. Renders a textarea.</li>
+      <li><strong>Numeric</strong><br>It takes a number as an answer.</li>
+      <li><strong>Select</strong><br>It renders a dropdown by taking answer options.</li>
+      <li><strong>Short</strong><br>It takes a string as an answer. Short answer.</li>
+    </ul><br>
+  </li>
+  <li>Once the type is filled, you can optionally fill other details like
+    <ul><br>
+      <li><strong>Question text</strong><br>What is the question?</li>
+      <li><strong>Answer options</strong><br>Give options separated by newline for questions of type checkbox, radio buttons
+        or select.
+      </li>
+      <li><strong>Answer presence</strong><br>Should you mandate answering this question?</li>
+      <li><strong>min and max length</strong><br>Checks whether answer if in between min and max length. Ignores if blank.
+      </li>
+      <li><strong>greater than and less than</strong><br>Applicable for numeric question where answer is validated with
+        these values.
+      </li>
+    </ul><br>
+  </li>
+  <li>Once the questions are populated, you can return to root_path ie by clicking Question Groups and share distribute
+    answer url so that others can answer the questions populated.
+  </li><br>
+  <li>Note that answers fail to persist of the criteria that you have provided while creating questions fail.</li>
 </ol>
-
 
 </p>
