@@ -37,7 +37,7 @@ Note that answers fail to persist of the criteria that you have provided while c
 
 
 
-TODO  v0.7
+TODO  v0.8
 
 Add ability to sort questions, so that order is preserved.
 Add multi tenant support.
