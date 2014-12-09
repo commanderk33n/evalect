@@ -1,11 +1,12 @@
 <div class="row">
 
 <h2>
-  Question Groups
-  <% if can_administer? %>
-    <%= link_to "New Group", new_question_group_path %>
-  <% end %>
+  Evaluationen zu folgenden Vorlesungen verfügbar:
+
 </h2>
+  <% if can_administer? %>
+      <%= link_to "Neue Evaluation erstellen", new_question_group_path %>
+  <% end %>
 <hr/>
 
 <table>
@@ -15,7 +16,7 @@
   </colgroup>
   <thead>
     <tr>
-      <th>Question Group</th>
+      <th>Vorlesungen:</th>
       <th></th>
     </tr>
   </thead>
