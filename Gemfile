@@ -21,11 +21,11 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-## manuell
-gem 'bootstrap-sass',       '3.2.0.0'
-gem 'will_paginate',           '3.0.7'
+## own gems for evalect application
+gem 'bootstrap-sass', '3.2.0.0'
+gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
-gem 'faker',                '1.4.2'
+gem 'faker', '1.4.2'
 gem 'rapidfire'
 gem 'responders', '~> 2.0'
 
@@ -41,23 +41,18 @@ gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-
   ## manuell
   gem 'spring'
-
 end
 
 ## production gems only for HEROKU deployment. USE:  "bundle install --without production"  for development
 group :production do
-  gem 'pg',             '0.17.1'
+  gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
-
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
