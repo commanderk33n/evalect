@@ -39,6 +39,6 @@ Note that answers fail to persist of the criteria that you have provided while c
 
 TODO  v0.8beta
 
-(Add ability to sort questions, so that order is preserved.)
-(Add multi tenant support.)
-!!!!!!Rename question-groups to surveys, and change routes accordingly.!!!!!!
+- edit Question is buggy  "no route error"
+- translation
+- clearly arranged views for questions, create, result etc.
