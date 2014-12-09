@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  mount Rapidfire::Engine => "/rapidfire"
+  mount Rapidfire::Engine => "/evalect"
   root             'static_pages#home'
 
   get 'sessions/new'
@@ -11,9 +11,6 @@ Rails.application.routes.draw do
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
   resources :users
-
-
-
 
 
   # The priority is based upon order of creation: first created -> highest priority.

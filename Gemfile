@@ -21,13 +21,14 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-## own gems for evalect application
+## custom gems for evalect application
 gem 'bootstrap-sass', '3.2.0.0'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'faker', '1.4.2'
 gem 'rapidfire'
 gem 'responders', '~> 2.0'
+gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master' # For 4.x
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
