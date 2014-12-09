@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141208174626) do
+ActiveRecord::Schema.define(version: 20141209110914) do
 
   create_table "rapidfire_answer_groups", force: true do |t|
     t.integer  "question_group_id"
@@ -62,6 +62,7 @@ ActiveRecord::Schema.define(version: 20141208174626) do
     t.string   "password_digest"
     t.string   "remember_digest"
     t.boolean  "admin",           default: false
+    t.boolean  "prof",            default: false
   end
 
 end

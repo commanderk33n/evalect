@@ -6,7 +6,7 @@
         <li><%= link_to "Startseite", main_app.root_path %></li>
         <li><%= link_to "Hilfe", main_app.help_path %></li>
         <% if logged_in? %>
-            <li><%= link_to "Evaluationen", rapidfire.root_path  %></li>
+            <li><%= link_to "Evaluationen", rapidfire.root_path %></li>
             <% if current_user.admin? %>
                 <li><%= link_to "Adminbereich", main_app.users_path %></li>
             <% end %>

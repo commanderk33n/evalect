@@ -1,15 +1,15 @@
 <h2><%= question_group.new_record? ? "Neue Evaluation erstellen" : "Edit Group" %></h2>
 
 <%= form_for question_group do |f| %>
-  <%- if question_group.errors.any? %>
-    <ul>
-      <%- question_group.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-    </ul>
-  <% end %>
+    <%- if question_group.errors.any? %>
+        <ul>
+          <%- question_group.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+          <% end %>
+        </ul>
+    <% end %>
 
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-  <%= f.submit %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit %>
 <% end %>

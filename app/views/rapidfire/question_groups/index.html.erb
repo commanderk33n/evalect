@@ -1,29 +1,29 @@
 <div class="row">
 
-<h2>
-  Evaluationen zu folgenden Vorlesungen verfügbar:
+  <h2>
+    Evaluationen zu folgenden Vorlesungen verfügbar:
 
-</h2>
+  </h2>
   <% if can_administer? %>
       <%= link_to "Neue Evaluation erstellen", new_question_group_path %>
   <% end %>
-<hr/>
+  <hr/>
 
-<table>
-  <colgroup>
-    <col>
-    <col width="250">
-  </colgroup>
-  <thead>
+  <table>
+    <colgroup>
+      <col>
+      <col width="250">
+    </colgroup>
+    <thead>
     <tr>
       <th>Vorlesungen:</th>
       <th></th>
     </tr>
-  </thead>
-  <tbody>
+    </thead>
+    <tbody>
     <%= render partial: "question_group", collection: @question_groups %>
-  </tbody>
-</table>
+    </tbody>
+  </table>
 
 </div>
 
