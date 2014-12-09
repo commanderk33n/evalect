@@ -1,25 +1,25 @@
 <div class="row">
 
-<h2>
-  Fragen:
-</h2>
+  <h2>
+    Fragen:
+  </h2>
   <%= link_to "Neue Frage erstellen", new_question_group_question_path(@question_group) %>
-<hr/>
+  <hr/>
 
-<table>
-  <colgroup>
-    <col>
-    <col width="250">
-  </colgroup>
-  <thead>
+  <table>
+    <colgroup>
+      <col>
+      <col width="250">
+    </colgroup>
+    <thead>
     <tr>
       <th>Question</th>
       <th></th>
     </tr>
-  </thead>
-  <tbody>
+    </thead>
+    <tbody>
     <%= render partial: "question", collection: @questions %>
-  </tbody>
-</table>
+    </tbody>
+  </table>
 
 </div>
