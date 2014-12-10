@@ -29,6 +29,10 @@ gem 'faker', '1.4.2'
 gem 'rapidfire'
 gem 'responders', '~> 2.0'
 gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master' # For 4.x
+gem 'ejs'
+gem 'haml-rails'
+gem 'devise', '~> 3.0.4'
+gem 'simple_form'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'

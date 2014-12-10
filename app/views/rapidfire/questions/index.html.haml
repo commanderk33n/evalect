@@ -1,0 +1,17 @@
+%h2
+  Vorlesungen
+  .pull-right
+    = link_to "Neue Frage erstellen", new_question_group_question_path(@question_group),
+      class: "btn btn-primary btn-large"
+%hr
+
+%table.table.table-striped
+  %colgroup
+    %col
+    %col{ width: "250" }
+  %thead
+    %tr
+      %th Fragen:
+      %th
+  %tbody
+    = render partial: "question", collection: @questions

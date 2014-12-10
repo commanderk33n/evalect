@@ -37,8 +37,5 @@ Note that answers fail to persist of the criteria that you have provided while c
 
 
 
-TODO  v0.8beta
+v1.0
 
-- edit Question is buggy  "no route error"
-- translation
-- clearly arranged views for questions, create, result etc.

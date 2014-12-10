@@ -1,0 +1,7 @@
+%tr{ id: "question_#{question.id}" }
+  %td= question.question_text
+  %td
+    %ul.horizontal-list
+      %li
+        = link_to "Löschen", [question.question_group, question], method: :delete,
+          class: "btn btn-danger"

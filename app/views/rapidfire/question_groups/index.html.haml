@@ -1,0 +1,17 @@
+%h2
+  Evaluationen für folgenden Vorlesungen verfügbar:
+  - if can_administer?
+    .pull-right
+      = link_to "Neue Evaluation erstellen", new_question_group_path, class: "btn btn-primary btn-large"
+%hr
+
+%table.table.table-striped
+  %colgroup
+    %col
+    %col{ width: "45%" }
+  %thead
+    %tr
+      %th Vorlesungen:
+      %th
+  %tbody
+    = render partial: "question_group", collection: @question_groups

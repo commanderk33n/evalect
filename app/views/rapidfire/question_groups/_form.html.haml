@@ -1,0 +1,5 @@
+%h3= question_group.new_record? ? "Neue Evaluation erstellen" : "test"
+
+= simple_form_for question_group do |f|
+  = f.input :name
+  = f.submit "Erstellen", class: "btn btn-primary btn-large"
