@@ -2,7 +2,6 @@
 
 EvaLect
 
-
 Projekt für Webanwendungen-Studienleistung WS1415 Studiengang: IMB3
 
 Evalect: Evaluation Lecture, soll es Dozenten und Studenten erleichtern eine Vorlesung zu Evaluieren.
@@ -37,5 +36,5 @@ Note that answers fail to persist of the criteria that you have provided while c
 
 
 
-v1.0
+v1.0  Software Design&Development by eikood
 
