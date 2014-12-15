@@ -18,7 +18,7 @@ User.create!(name:  "Example Prof",
              admin: false,
              prof: true)
 
-49.times do |n|
+15.times do |n|
   name  = Faker::Name.name
   email = "example-student#{n+1}@example.com"
   password = "password"
