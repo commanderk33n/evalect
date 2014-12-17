@@ -13,7 +13,7 @@
         %strong Zusätzliche Optionen
       %hr
 
-      = f.input :answer_presence, as: :boolean
+      = f.input :answer_presence, as: :boolean, label: "Antwort muss ausgefüllt sein"
       .row-fluid
         .span6
           = f.input :answer_minimum_length, label: "Minimale länge der Antwort"

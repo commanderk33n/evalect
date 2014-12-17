@@ -12,8 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require underscore
 //= require bootstrap
-//= require chart
-//= require_tree ./templates
-//= require result-chart
+//= require turbolinks
+//= require_tree .
